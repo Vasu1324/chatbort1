@@ -29,6 +29,8 @@ function getBotResponse(userMessage) {
         return "I'm doing well, thank you!";
     } else if (lowerCaseMessage.includes("bye")) {
         return "Goodbye! Have a great day!";
+    } else if (lowerCaseMessage.includes("kem cho")){
+        return "majaama tu bolo???";
     } else {
         return "Sorry, I didn't quite understand that.";
     }
